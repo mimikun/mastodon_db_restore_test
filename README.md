@@ -9,4 +9,5 @@
 $ scp host_user_name:path/to/db_dump_file.dump .
 $ bash docker-start.sh
 $ docker exec -u postgres -it psql96 /bin/bash
+# pg_restore -C -d postgres mastodon_db_backup.dump
 ```
